@@ -1,0 +1,39 @@
+.page{
+    margin: 0;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+button{
+    border: none;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.MuiPaginationItem-root {
+    color: rgba(0, 0, 0, 0.87);
+    height: 32px;
+    margin: 0 3px;
+    padding: 0 6px;
+    font-size: 0.875rem;
+    min-width: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    border-radius: 16px;
+    letter-spacing: 0.01071em;
+}
+
+.MuiPaginationItem-page {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.ativo{
+    background-color: rgb(54, 84, 252);
+}
